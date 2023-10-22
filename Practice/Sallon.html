@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="Sallon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show')
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="container">
+            <nav>
+                <a href=""><img src="./Images/logo.png" alt="Nicelogo" class="logo"></a>
+                <ul class="show">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+                <label id="icon">
+                    <i class="fa fa-bars"></i>
+                </label>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="herosec">
+            <div class="col-50">
+                <div class="herocontent">
+                    <h4 class="aboutshop">About us</h4>
+                    <h1 class="aboutbarber">Licensed <br />Professional<br /> barbers</h1>
+                    <button class="h-button">Book An Appointment</button>
+                </div>
+            </div>
+
+            <div class="col-50 Saloonlogo">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="barber-list">
+            <div class="container">
+                <h1 class="banner">Our Barbers</h1>
+                <div class="barber-names">
+                    <div class="barber-occupation">
+                        <img src="./Images/markbrown.png" alt="markbrownpic">
+                    </div>
+                    <div class="barber-occupation">
+                        <img src="./Images/david.png" alt="davidpic">
+                    </div>
+                    <div class="barber-occupation">
+                        <img src="./Images/clayton.png" alt="claytonpic">
+                    </div>
+                </div>
+
+                <div class="barber2-names">
+                    <div class="barber-occupation">
+                        <img src="./Images/robert.png" alt="robertpic">
+                    </div>
+                    <div class="barber-occupation">
+                        <img src="./Images/dan.png" alt="danpic">
+                    </div>
+                    <div class="barber-occupation">
+                        <img src="./Images/dwight.png" alt="dwightpic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="Fullservice">
+            <div class="container">
+                <div class="Inner-info">
+                    <h1>Full service barber shop & men's grooming studio</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deserunt sapiente mollitia quis
+                        commodi
+                        dolores voluptate, laborum itaque porro perspiciatis?</p>
+                    <div class="service-layout">
+                        <div class="viewprice">
+                            <a href="/">View Pricing</a>
+                        </div>
+                        <div class="booknow">
+                            <a href="/">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="ContactUs">
+            <div class="ContactArea">
+                <div class="col-50">
+                    <img src="./Images/ContactPerson.png" alt="ContactPerson">
+                </div>
+                <div class="col-50">
+                    <div class="u-container-layout-2">
+                        <h1>Contact Us!</h1>
+                        <div class="contact-umiddlebox">
+                            <form>
+                                <div class="u-form-group">
+                                    <label for="name" class="u-form-control-hidden">Namw</label>
+                                    <input type="text" placeholder="Enter Your Name">
+                                </div>
+                                <div class="u-form-group">
+                                    <label for="email" class="u-form-control-hidden">Email</label>
+                                    <input type="email" placeholder="Enter a Valid Email Address">
+                                </div>
+                                <div class="u-form-group">
+                                    <label for="message" class="u-form-control-hidden">Message</label>
+                                    <textarea name="message" id="message-3b9a" cols="50" rows="6"
+                                        placeholder="Enter Your Message"></textarea>
+                                </div>
+                                <div>
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
